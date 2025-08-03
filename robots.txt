@@ -1,0 +1,10 @@
+# robots.txt for gwanox.com — last updated 2025-08-03
+User-agent: *
+Allow: /
+
+# Optional: block build assets that don’t need indexing
+Disallow: /apps/
+Disallow: /node_modules/
+
+# Point crawlers to the sitemap
+Sitemap: https://gwanox.com/sitemap.xml
