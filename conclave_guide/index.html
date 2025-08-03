@@ -1,1 +1,213 @@
-conclave guide
+<!DOCTYPE html>
+<!-- =====================================================================
+  km — STATIC WIKI
+  The goal of this file is to let anyone host a self‑contained wiki (Markdown + graph view + search) on any static host.  
+  ──────────────────────────────────────────────────────────────────────────
+
+  • Drop the file anywhere (GitHub Pages, Netlify Drop, S3, …) and you’re live.
+  • config.js and km.css keep all user‑tweakable bits out of the core.
+  • Third‑party libs come straight from CDNs – no build‑step required.
+======================================================================== -->
+
+<html lang="en">
+<head>
+  <!-- —————————————————————— CORE META —————————————————————— -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Warframe Conclave Guide</title>
+
+  <!-- —————————————————————— SEO BLOCK ——————————————————————
+       Swap the ★ placeholders, delete what you don’t need, and you’re done.
+
+  <!-- ——— Primary meta ——— -->
+  <meta name="description" content="Warframe PvP (Conclave) Guide: Learn everything you need to compete! Parkour, Aim, Loadouts, Strategy!">
+  <meta name="keywords"    content="warframe, gwanox, warframe pvp guide, warframe conclave guide, warframe guide, conclave guide, warframe parkour guide">
+  <meta name="author"      content="Gwanox">
+  <meta name="robots"      content="index,follow"><!-- staging? set to noindex -->
+  <link rel="canonical"    href="https://gwanox.com/conclave_guide">
+
+  <!-- ——— Performance / UX ——— -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <meta name="theme-color" content="#1e1e1e">
+
+  <!-- ——— Internationalisation (uncomment if multi-lingual) ——— -->
+  <!-- <link rel="alternate" hreflang="en" href="https://example.com/en/"> -->
+  <!-- <link rel="alternate" hreflang="fr" href="https://example.com/fr/"> -->
+  <!-- <meta property="og:locale"           content="en_US"> -->
+  <!-- <meta property="og:locale:alternate" content="fr_FR"> -->
+
+  <!-- ——— Ownership / verification (optional) ——— -->
+  <!-- <meta name="google-site-verification" content="★ token ★"> -->
+  <!-- <meta name="msvalidate.01"            content="★ token ★"> -->
+
+  <!-- ——— Open Graph (FB / LinkedIn / Slack embeds) ——— -->
+  <meta property="og:type"        content="website">
+  <meta property="og:site_name"   content="Warframe Conclave Guide">
+  <meta property="og:title"       content="Warframe Conclave Guide">
+  <meta property="og:description" content="Warframe PvP (Conclave) Guide: Learn everything you need to compete! Parkour, Aim, Loadouts, Strategy!">
+  <meta property="og:url"         content="https://gwanox.com/conclave_guide">
+  <meta property="og:image"       content="https://example.com/cover.png">
+  <meta property="og:image:alt"   content="Alt text for the social image">
+
+  <!-- ——— Twitter Card ——— -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Warframe Conclave Guide">
+  <meta name="twitter:description" content="Warframe PvP (Conclave) Guide: Learn everything you need to compete! Parkour, Aim, Loadouts, Strategy!">
+  <meta name="twitter:image"       content="https://example.com/cover.png">
+
+  <!-- ——— JSON-LD: TechArticle (fits knowledge-base pages) ——— -->
+  <script type="application/ld+json">
+  {
+    "@context" : "https://schema.org",
+    "@type"    : "TechArticle",
+    "headline" : "Warframe Conclave Guide",
+    "about"    : ["Warframe Conclave Guide","Warframe PvP"],
+    "author"   : { "@type":"Person", "name":"Gwanox" },
+    "publisher": { "@type":"Organization","name":"Gwanox" },
+    "url"      : "https://gwanox.com/conclave_guide",
+    "inLanguage":"en"
+  }
+  </script>
+
+  <!-- ——— JSON-LD: WebSite (+ built-in search box) ——— -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Warframe Conclave Guide",
+    "url": "https://gwanox.com/conclave_guide"
+  }
+  </script>
+
+  <!-- ——— JSON-LD: Organization ——— -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Gwanox",
+    "url": "https://gwanox.com/conclave_guide",
+    "logo": "https://example.com/logo.png",
+    "sameAs": [
+      "https://gwanox.com"
+    ]
+  }
+  </script>
+
+  <!-- ——— JSON-LD: BreadcrumbList (static example; can also be injected at runtime) ——— -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://gwanox.com/conclave_guide"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Aiming",
+      "item": "https://gwanox.com/conclave_guide/#aim"
+    }]
+  }
+  </script>
+
+  <!-- ——— JSON-LD: ImageObject (high-res social / Discover support) ——— -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    "contentUrl": "https://example.com/cover.png",
+    "license": "ttps://gwanox.com/conclave_guide/licence",
+    "creator": { "@type":"Organization","name":"Gwanox" },
+    "creditText": "© Gwanox"
+  }
+  </script>
+
+  <!-- ———————————————————————————— END OF SEO BLOCK ———————————————————————————————— -->
+
+  <!-- ———————————————— 3ʳ‑PARTY STYLE SHEETS ———————————————— -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.11.1/styles/github-dark.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+
+  <!-- ———————————————— USER CONFIG & KM FRAMEWORK BOOTSTRAP (title, paths, theme) ———————————————— -->
+  <script src="config.js" defer></script>
+  <link  id="favicon-el"  rel="icon" href="">
+  <link rel="stylesheet"  href="https://cdn.jsdelivr.net/gh/erw-1/km@main/dist/km.min.css">
+  <script type="module"   src="https://cdn.jsdelivr.net/gh/erw-1/km@main/dist/km.min.js"></script>
+  <!-- ——— <link rel="stylesheet"  href="theme.css"> Optional theme override ——— -->
+
+</head>
+
+<body>
+<!-- ======================================================================
+     SIDEBAR • TREE + SEARCH
+====================================================================== -->
+<aside id="sidebar" role="navigation" aria-label="Site navigation">
+  <a href="#" title="Home"><h1 id="wiki-title" tabindex="0"></h1></a>
+
+  <!-- ——— SEARCH BOX ——— -->
+  <div id="search-box">
+    <input  id="search"        placeholder="Search…" autocomplete="off" aria-label="Search">
+    <button id="search-clear"  aria-label="Clear search" title="Clear search" style="display:none">✕</button>
+  </div>
+
+  <!-- ——— DYNAMIC NAVIGATION TREES ——— -->
+  <ul id="tree"></ul>
+  <ul id="results"></ul>
+</aside>
+
+<!-- ======================================================================
+     MAIN PANEL • BREADCRUMB + CONTENT + UTILS
+====================================================================== -->
+<main>
+  <!-- ——— BREADCRUMB / TOP BAR ——— -->
+  <header id="crumb" role="navigation" aria-label="Breadcrumb">
+    <!-- Hamburger to reveal sidebar on mobile -->
+    <button id="burger-sidebar" class="burger" aria-label="Open sidebar">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="grey"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </button>
+
+    <!-- Shortcut to root page -->
+    <a id="home-link" href="#" title="Home">
+      <svg width="20" height="20" viewBox="0 0 24 16" fill="grey"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    </a>
+
+    <!-- Dynamic breadcrumb injects here -->
+    <span id="crumb-dyn"></span>
+
+    <!-- Utility panel burger -->
+    <button id="burger-util" class="burger" aria-label="Open utility panel">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="grey"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+    </button>
+  </header>
+
+  <!-- ——— MAIN CONTENT / ARTICLE AREA ——— -->
+  <div id="content-area">
+    <article id="content"></article>
+
+    <!-- ——— RIGHT UTILITY PANE (mini-graph + ToC) ——— -->
+    <section id="util">
+      <div id="graph-box">
+        <svg id="mini"></svg>
+        <button id="expand" aria-label="Open full graph">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="grey"><path d="M10 2a8 8 0 105.29 14.29l4.7 4.7 1.42-1.42-4.7-4.7A8 8 0 0010 2zm0 2a6 6 0 110 12A6 6 0 0110 4z"/></svg>
+        </button>
+      </div>
+
+      <a class="watermark" href="https://github.com/erw-1/km" target="_blank" rel="noopener noreferrer">Powered by KM</a>
+      <nav id="toc" aria-label="Table of contents"></nav>
+    </section>
+  </div>
+</main>
+
+<!-- ======================================================================
+     FULL‑SCREEN GRAPH MODAL
+====================================================================== -->
+<div id="modal">
+  <span class="close" role="button" aria-label="Close full graph">✕</span>
+  <svg id="full"></svg>
+</div>
+
+</body>
+</html>
