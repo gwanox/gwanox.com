@@ -3,7 +3,7 @@ window.CONFIG = {
   TITLE   : 'Conclave Guide',
 
   // Any png / ico / svg file you like
-  FAVICON : 'https://raw.githubusercontent.com/erw-1/erw.one/refs/heads/main/files/img/preview.png',
+  FAVICON : 'logo.webp',
 
   // Raw Markdown bundle (one file, many pages)
   MD : 'https://hackmd.io/@conc/guide/download',
