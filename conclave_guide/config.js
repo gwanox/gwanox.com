@@ -10,7 +10,8 @@ window.CONFIG = {
     'javascript',
     'bash',
     'markdown',
-    'python'
+    'python',
+    'css'
     // add or remove freely …
   ]
 };
