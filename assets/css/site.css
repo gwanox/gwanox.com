@@ -810,8 +810,8 @@ h1 .aka {
 .portrait::before,
 .sigil-box::before {
   background:
-    repeating-linear-gradient(0deg, transparent 0 4px, rgba(var(--fg-rgb), .24) 4px 5px),
-    repeating-linear-gradient(90deg, transparent 0 19px, rgba(var(--fg-rgb), .16) 19px 20px);
+    repeating-linear-gradient(0deg, transparent 0 4px, rgba(var(--fg-rgb), .07) 4px 5px),
+    repeating-linear-gradient(90deg, transparent 0 19px, rgba(var(--fg-rgb), .15) 19px 20px);
   mix-blend-mode: normal;
 }
 
