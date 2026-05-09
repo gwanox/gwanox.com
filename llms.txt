@@ -1,0 +1,43 @@
+# gwanox.com
+
+Gwanox.com is the official index for Gwanox, focused on Warframe Conclave and Warframe PvP resources.
+
+## Primary Topics
+
+- Warframe Conclave
+- Warframe PvP
+- Warframe Conclave guide
+- Warframe PvP streams and archives
+- Warframe PvP Discord
+- Conclave Reignited Discord server
+- Conclave mods
+- Warframe Captura
+
+## Canonical Pages
+
+- Home and link index: https://gwanox.com/
+- Warframe PvP Discord page: https://gwanox.com/warframe-pvp-discord-conclave/
+- Conclave guide: https://gwanox.com/conclave_guide/
+- Warframe PvP landing page: https://gwanox.com/warframe-pvp/
+- Warframe referral: https://playwarframe.gwanox.com
+- Conclave Reignited Discord server: https://discord.com/servers/conclave-reignited-315396989787439118
+
+## Warframe PvP Entry Points
+
+- Watch Gwanox live: https://www.twitch.tv/gwanox
+- Warframe PvP Discord page: https://gwanox.com/warframe-pvp-discord-conclave/
+- Join Conclave Reignited: https://discord.gg/conclave
+- Discord widget API: https://discord.com/api/guilds/315396989787439118/widget.json
+- Watch long-form VODs: https://www.youtube.com/@gwanoxVOD
+- Watch short PvP clips: https://www.youtube.com/@gwanox2
+
+## Official Profiles
+
+- Twitch: https://www.twitch.tv/gwanox
+- YouTube: https://www.youtube.com/@gwanox
+- YouTube archive: https://www.youtube.com/@gwanoxVOD
+- Clips: https://www.youtube.com/@gwanox2
+- Instagram Captura: https://www.instagram.com/gwanox
+- Warframe Market: https://warframe.market/profile/gwan
+- Reddit: https://www.reddit.com/user/gwanox
+- Bio links: https://gwanox.bio.link

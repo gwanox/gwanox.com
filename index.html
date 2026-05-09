@@ -1,200 +1,547 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#141513">
 
-    <title>Gwanox • Warframe Conclave & Captura</title>
+  <title>Gwanox - Warframe Conclave PvP Resources and Captura</title>
+  <meta name="description" content="Gwanox maintains Warframe Conclave PvP resources: a Conclave guide, live matches, video archives, Captura work, mod inventory, the Conclave Reignited Discord server and a Warframe referral.">
+  <meta name="keywords" content="gwanox, gwan, gwan warframe, warframe pvp, warframe conclave, warframe conclave pvp, warframe conclave guide, warframe pvp guide, conclave mods, conclave discord, conclave reignited, warframe captura, captura artist, warframe market gwan, warframe pvp streamer">
+  <meta name="subject" content="Warframe Conclave PvP resources, guides, streams and Captura by Gwanox">
+  <meta name="classification" content="Warframe Conclave, Warframe PvP, gaming resources">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Gwanox">
+  <meta name="creator" content="Gwanox">
+  <meta name="application-name" content="gwanox.com">
 
-    <!-- Primary Meta Tags -->
-    <meta name="description" content="Gwanox • definitive resource for Warframe PvP (Conclave), high-end Captura art, in-depth YouTube guides and a direct marketplace for Conclave mods.">
-    <!-- French description for search engines -->
-    <meta name="description" lang="fr" content="Gwanox • la référence ultime pour le PvP Conclave de Warframe, le Captura et les guides vidéo, avec un marché direct pour les mods Conclave.">
-    <meta name="keywords" content="gwanox, gwan, gwan warframe, gwanox warframe, warframe pvp, warframe conclave, warframe conclave discord, warframe pvp discord, gwan conclave, gwanox conclave, warframe pvp streamer, warframe conclave streamer, warframe captura, warframe captura artist, warframe conclave mods, warframe market conclave, warframe reddit, gwanox bio link, buy conclave mods, warframe pvp farm, warframe pvp guide, warframe conclave guide">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Gwanox">
+  <link rel="canonical" href="https://gwanox.com/">
+  <link rel="alternate" hreflang="en" href="https://gwanox.com/">
+  <link rel="alternate" hreflang="x-default" href="https://gwanox.com/">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <link rel="preload" as="font" href="assets/fonts/AzeretMono-Variable.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="font" href="assets/fonts/ArchivoBlack-Regular.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="image" href="assets/logos/gwanox.jpg">
+  <link rel="preload" as="image" href="assets/logos/conclave.png">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23141513'/%3E%3Cpath d='M7 7h18v4H7zm4 7h10v4H11zm-4 7h18v4H7z' fill='%23c4cabd'/%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="assets/logos/gwanox.jpg">
 
-    <!-- Alternate language versions -->
-    <link rel="alternate" hreflang="en" href="https://gwanox.com/">
-    <link rel="alternate" hreflang="fr" href="https://gwanox.com/fr/">
-    <link rel="alternate" hreflang="x-default" href="https://gwanox.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="gwanox.com">
+  <meta property="og:url" content="https://gwanox.com/">
+  <meta property="og:title" content="Gwanox - Warframe Conclave PvP Resources and Captura">
+  <meta property="og:description" content="Warframe Conclave PvP resources, live matches, video archives, Captura work, mod inventory, Conclave Reignited Discord access and a Warframe referral.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://gwanox.com/assets/logos/gwanox.jpg">
+  <meta property="og:image:alt" content="Gwanox avatar">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gwanox.com/">
-    <meta property="og:title" content="Gwanox • Warframe Conclave & Captura">
-    <meta property="og:description" content="Your hub for Warframe Conclave strategy, PvP streams, Captura art, YouTube guides and the most active Conclave Discord community.">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="fr_FR">
-    <meta property="og:image" content="https://gwanox.com/assets/img/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@_Gwanox">
+  <meta name="twitter:creator" content="@_Gwanox">
+  <meta name="twitter:title" content="Gwanox - Warframe Conclave PvP Resources and Captura">
+  <meta name="twitter:description" content="Warframe Conclave PvP resources, live matches, video archives, Captura work, mod inventory, Conclave Reignited Discord access and a Warframe referral.">
+  <meta name="twitter:image" content="https://gwanox.com/assets/logos/gwanox.jpg">
+  <meta name="twitter:image:alt" content="Gwanox avatar">
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@_Gwanox">
-    <meta name="twitter:title" content="Gwanox • Warframe Conclave & Captura">
-    <meta name="twitter:description" content="Your hub for Warframe Conclave strategy, PvP streams, Captura art, YouTube guides and the most active Conclave Discord community.">
-    <meta name="twitter:image" content="https://gwanox.com/assets/img/preview.png">
-
-    <link rel="canonical" href="https://gwanox.com/">
-    <link rel="icon" type="image/png" href="https://gwanox.com/assets/img/favicon.png" sizes="any">
-    <link rel="apple-touch-icon" href="https://gwanox.com/assets/img/apple-touch-icon.png">
-
-    <!-- Preload/Preconnect for performance -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Global styles & canvas -->
-    <link rel="stylesheet" href="/apps/home/css/canvas.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://gwanox.com/#person",
-          "name": "Gwanox",
-          "alternateName": "Gwan",
-          "url": "https://gwanox.com",
-          "image": "https://gwanox.com/assets/img/avatar.jpg",
-          "description": "Warframe Conclave guide author, PvP streamer, Captura artist and marketplace seller.",
-          "jobTitle": ["Content Creator", "Streamer", "Captura Artist"],
-          "sameAs": [
-            "https://www.twitch.tv/gwanox",
-            "https://twitter.com/_Gwanox",
-            "https://www.instagram.com/gwanox",
-            "https://discord.gg/conclave",
-            "https://www.youtube.com/@gwanox",
-            "https://www.youtube.com/@gwanox2",
-            "https://warframe.market/profile/gwan",
-            "https://www.reddit.com/user/gwanox",
-            "https://gwanox.bio.link"
-          ],
-          "knowsAbout": [
-            "Warframe",
-            "Warframe Conclave",
-            "Warframe PvP",
-            "Warframe Captura",
-            "Digital Extremes"
-          ],
-          "knowsLanguage": ["English", "French"]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://gwanox.com/#website",
-          "url": "https://gwanox.com",
-          "name": "gwanox.com",
-          "publisher": { "@id": "https://gwanox.com/#person" },
-          "inLanguage": ["en-US", "fr-FR"]
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://gwanox.com/conclave_guide",
-          "url": "https://gwanox.com/conclave_guide",
-          "name": "Ultimate Warframe Conclave Guide | Gwanox",
-          "isPartOf": { "@id": "https://gwanox.com/#website" },
-          "primaryImageOfPage": "https://gwanox.com/assets/img/conclave_guide_preview.png",
-          "description": "Step-by-step guide to mastering Warframe Conclave PvP by Gwanox.",
-          "inLanguage": "en-US"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://gwanox.com/fr/conclave_guide",
-          "url": "https://gwanox.com/fr/conclave_guide",
-          "name": "Guide ultime Conclave Warframe | Gwanox",
-          "isPartOf": { "@id": "https://gwanox.com/#website" },
-          "primaryImageOfPage": "https://gwanox.com/assets/img/conclave_guide_preview.png",
-          "description": "Guide détaillé pour maîtriser le PvP Conclave de Warframe par Gwanox.",
-          "inLanguage": "fr-FR"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://discord.gwanox.com",
-          "url": "https://discord.gwanox.com",
-          "name": "Warframe Conclave Discord Community | Gwanox",
-          "isPartOf": { "@id": "https://gwanox.com/#website" },
-          "primaryImageOfPage": "https://gwanox.com/assets/img/discord_preview.png",
-          "description": "Join the most active Warframe PvP Discord server, hosted by Gwanox.",
-          "inLanguage": "en-US"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://warframe.market/profile/gwan",
-          "url": "https://warframe.market/profile/gwan",
-          "name": "Buy Warframe Conclave Mods | Gwanox",
-          "isPartOf": { "@id": "https://gwanox.com/#website" },
-          "primaryImageOfPage": "https://gwanox.com/assets/img/market_preview.png",
-          "description": "Purchase Conclave mods directly from Gwanox on Warframe Market.",
-          "inLanguage": "en-US"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://gwanox.bio.link",
-          "url": "https://gwanox.bio.link",
-          "name": "All Gwanox Links",
-          "isPartOf": { "@id": "https://gwanox.com/#website" },
-          "description": "Central link-in-bio hub for every Gwanox platform.",
-          "inLanguage": "en-US"
+  <!-- [SEO JSON-LD] Keep the ItemList below in the same order as the visible link cards. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://gwanox.com/#person",
+        "name": "Gwanox",
+        "alternateName": ["Gwan", "_Gwanox", "-Gwanox"],
+        "url": "https://gwanox.com/",
+        "email": "mailto:mail@gwanox.com",
+        "image": "https://gwanox.com/assets/logos/gwanox.jpg",
+        "description": "Warframe Conclave PvP resource author, PvP streamer, Captura artist and Conclave mod seller.",
+        "sameAs": [
+          "https://www.twitch.tv/gwanox",
+          "https://twitter.com/_Gwanox",
+          "https://x.com/_Gwanox",
+          "https://www.youtube.com/@gwanox",
+          "https://www.youtube.com/@gwanox2",
+          "https://www.youtube.com/@gwanoxVOD",
+          "https://www.instagram.com/gwanox",
+          "https://www.reddit.com/user/gwanox",
+          "https://warframe.market/profile/gwan",
+          "https://gwanox.bio.link"
+        ],
+        "knowsAbout": [
+          "Warframe",
+          "Warframe Conclave",
+          "Warframe PvP",
+          "Warframe Captura",
+          "Digital Extremes",
+          "Conclave Reignited"
+        ],
+        "knowsLanguage": ["English"],
+        "affiliation": {"@id": "https://gwanox.com/#conclave-reignited"}
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://gwanox.com/#website",
+        "url": "https://gwanox.com/",
+        "name": "gwanox.com",
+        "publisher": {"@id": "https://gwanox.com/#person"},
+        "inLanguage": "en-US",
+        "hasPart": [
+          {"@id": "https://gwanox.com/warframe-pvp-discord-conclave/#webpage"},
+          {"@id": "https://gwanox.com/conclave_guide/#webpage"},
+          {"@id": "https://gwanox.com/warframe-pvp/#webpage"}
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://gwanox.com/warframe-pvp-discord-conclave/#webpage",
+        "url": "https://gwanox.com/warframe-pvp-discord-conclave/",
+        "name": "Warframe PvP Discord - Conclave Reignited | Gwanox",
+        "isPartOf": {"@id": "https://gwanox.com/#website"},
+        "about": {"@id": "https://gwanox.com/#conclave-reignited"}
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://gwanox.com/warframe-pvp/#webpage",
+        "url": "https://gwanox.com/warframe-pvp/",
+        "name": "Warframe PvP / Conclave - Gwanox",
+        "isPartOf": {"@id": "https://gwanox.com/#website"},
+        "about": {"@id": "https://gwanox.com/#person"}
+      },
+      {
+        "@type": "Article",
+        "@id": "https://gwanox.com/conclave_guide/#webpage",
+        "url": "https://gwanox.com/conclave_guide/",
+        "name": "Warframe Conclave Guide - Gwanox",
+        "isPartOf": {"@id": "https://gwanox.com/#website"},
+        "author": {"@id": "https://gwanox.com/#person"}
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.twitch.tv/gwanox#webpage",
+        "url": "https://www.twitch.tv/gwanox",
+        "name": "Gwanox Twitch Warframe PvP streams",
+        "about": {"@id": "https://gwanox.com/#person"}
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://discord.gg/conclave#webpage",
+        "url": "https://discord.gg/conclave",
+        "name": "Warframe PvP Discord invite",
+        "about": {"@id": "https://gwanox.com/#conclave-reignited"}
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://gwanox.com/#profile",
+        "url": "https://gwanox.com/",
+        "name": "Gwanox",
+        "isPartOf": {"@id": "https://gwanox.com/#website"},
+        "about": {"@id": "https://gwanox.com/#person"},
+        "keywords": ["Warframe Conclave", "Warframe PvP", "Warframe Conclave guide", "Warframe PvP guide", "Conclave Reignited", "Conclave mods", "Warframe Captura"],
+        "mentions": [
+          {"@id": "https://gwanox.com/warframe-pvp-discord-conclave/#webpage"},
+          {"@id": "https://gwanox.com/warframe-pvp/#webpage"},
+          {"@id": "https://gwanox.com/conclave_guide/#webpage"},
+          {"@id": "https://www.twitch.tv/gwanox#webpage"},
+          {"@id": "https://discord.gg/conclave#webpage"},
+          {"@id": "https://gwanox.com/#term-warframe-conclave"},
+          {"@id": "https://gwanox.com/#term-warframe-pvp"},
+          {"@id": "https://gwanox.com/#term-conclave-guide"},
+          {"@id": "https://gwanox.com/#term-conclave-mods"},
+          {"@id": "https://gwanox.com/#conclave-reignited"},
+          {"@id": "https://gwanox.com/#term-conclave-reignited"}
+        ],
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://gwanox.com/assets/logos/gwanox.jpg",
+          "caption": "Gwanox avatar"
         }
-      ]
-    }
-    </script>
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "@id": "https://gwanox.com/#site-navigation",
+        "name": [
+          "Warframe PvP Discord",
+          "Warframe Conclave Guide",
+          "Warframe PvP / Conclave"
+        ],
+        "url": [
+          "https://gwanox.com/warframe-pvp-discord-conclave/",
+          "https://gwanox.com/conclave_guide/",
+          "https://gwanox.com/warframe-pvp/"
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://gwanox.com/#priority-pages",
+        "name": "Primary Gwanox pages",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Warframe PvP Discord", "url": "https://gwanox.com/warframe-pvp-discord-conclave/"},
+          {"@type": "ListItem", "position": 2, "name": "Warframe Conclave Guide", "url": "https://gwanox.com/conclave_guide/"},
+          {"@type": "ListItem", "position": 3, "name": "Warframe PvP / Conclave", "url": "https://gwanox.com/warframe-pvp/"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://gwanox.com/#links",
+        "name": "Gwanox links",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Twitch Warframe PvP Streams", "url": "https://www.twitch.tv/gwanox"},
+          {"@type": "ListItem", "position": 2, "name": "Conclave Discord", "url": "https://discord.gg/conclave"},
+          {"@type": "ListItem", "position": 3, "name": "Conclave Guide", "url": "https://gwanox.com/conclave_guide/"},
+          {"@type": "ListItem", "position": 4, "name": "YouTube Warframe PvP Channel", "url": "https://www.youtube.com/@gwanox"},
+          {"@type": "ListItem", "position": 5, "name": "Warframe PvP Highlights", "url": "https://www.youtube.com/@gwanox2"},
+          {"@type": "ListItem", "position": 6, "name": "Warframe PvP Stream Archive", "url": "https://www.youtube.com/@gwanoxVOD"},
+          {"@type": "ListItem", "position": 7, "name": "Gwanox X Updates", "url": "https://twitter.com/_Gwanox"},
+          {"@type": "ListItem", "position": 8, "name": "Warframe Captura", "url": "https://www.instagram.com/gwanox"},
+          {"@type": "ListItem", "position": 9, "name": "Gwanox Reddit", "url": "https://www.reddit.com/user/gwanox"},
+          {"@type": "ListItem", "position": 10, "name": "Conclave Mods", "url": "https://warframe.market/profile/gwan"},
+          {"@type": "ListItem", "position": 11, "name": "Support Gwanox", "url": "https://streamelements.com/gwanox/tip"},
+          {"@type": "ListItem", "position": 12, "name": "Warframe Referral", "url": "https://playwarframe.gwanox.com"}
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://gwanox.com/#conclave-reignited",
+        "name": "Conclave Reignited",
+        "alternateName": ["Warframe PvP Discord", "Warframe Conclave Discord", "Conclave Discord"],
+        "url": "https://discord.com/servers/conclave-reignited-315396989787439118",
+        "sameAs": [
+          "https://discord.gg/conclave",
+          "https://discord.com/servers/conclave-reignited-315396989787439118"
+        ],
+        "member": {"@id": "https://gwanox.com/#person"},
+        "description": "Active Warframe PvP Discord community for Conclave players, associated with Gwanox."
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://gwanox.com/#term-warframe-conclave",
+        "name": "Warframe Conclave",
+        "description": "The player-versus-player mode and community around Warframe Conclave."
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://gwanox.com/#term-warframe-pvp",
+        "name": "Warframe PvP",
+        "description": "Competitive player-versus-player resources, matches, videos and guides for Warframe."
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://gwanox.com/#term-conclave-guide",
+        "name": "Warframe Conclave guide",
+        "description": "Guide material for Warframe Conclave fundamentals, PvP practice and player resources."
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://gwanox.com/#term-conclave-mods",
+        "name": "Conclave mods",
+        "description": "Warframe Conclave mod inventory and trading reference."
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://gwanox.com/#term-conclave-reignited",
+        "name": "Conclave Reignited",
+        "url": "https://discord.com/servers/conclave-reignited-315396989787439118",
+        "description": "Warframe Conclave PvP Discord community server linked from Gwanox."
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="assets/css/site.css">
+  <style>
+    /* Keep SVG filter bindings inline so document-fragment filters resolve reliably. */
+    .photo-filter { filter: url("#duo-photo-dark"); }
+    .logo-filter { filter: url("#duo-logo-dark"); }
+    [data-theme="paper"] .photo-filter { filter: url("#duo-photo-paper"); }
+    [data-theme="paper"] .logo-filter { filter: url("#duo-logo-paper"); }
+    .channel:hover .mark-img { filter: url("#duo-logo-paper"); }
+    [data-theme="paper"] .channel:hover .mark-img { filter: url("#duo-logo-dark"); }
+  </style>
 </head>
-<body class="antialiased bg-black text-white">
+<body data-theme="dark">
+  <!-- [SVG FILTERS] Inline because fragment filters are more reliable from the document. -->
+  <svg class="svg-defs" aria-hidden="true" focusable="false">
+    <filter id="duo-photo-dark" color-interpolation-filters="sRGB">
+      <feColorMatrix result="gray" type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/>
+      <feComponentTransfer in="gray" result="lifted">
+        <feFuncR type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+        <feFuncG type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+        <feFuncB type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+      </feComponentTransfer>
+      <feComponentTransfer in="lifted" result="mono">
+        <feFuncR type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+        <feFuncG type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+        <feFuncB type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+      </feComponentTransfer>
+      <feColorMatrix in="mono" type="matrix" values=".69020 0 0 0 .07843 .70980 0 0 0 .08235 .66667 0 0 0 .07451 0 0 0 1 0"/>
+    </filter>
+    <filter id="duo-photo-paper" color-interpolation-filters="sRGB">
+      <feColorMatrix result="gray" type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/>
+      <feComponentTransfer in="gray" result="lifted">
+        <feFuncR type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+        <feFuncG type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+        <feFuncB type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+      </feComponentTransfer>
+      <feComponentTransfer in="lifted" result="mono">
+        <feFuncR type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+        <feFuncG type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+        <feFuncB type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+      </feComponentTransfer>
+      <feColorMatrix in="mono" type="matrix" values="-.69020 0 0 0 .76863 -.70980 0 0 0 .79216 -.66667 0 0 0 .74118 0 0 0 1 0"/>
+    </filter>
+    <filter id="duo-logo-dark" color-interpolation-filters="sRGB">
+      <feColorMatrix result="gray" type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/>
+      <feComponentTransfer in="gray" result="lifted">
+        <feFuncR type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+        <feFuncG type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+        <feFuncB type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+      </feComponentTransfer>
+      <feComponentTransfer in="lifted" result="mono">
+        <feFuncR type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+        <feFuncG type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+        <feFuncB type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+      </feComponentTransfer>
+      <feColorMatrix in="mono" type="matrix" values="-.69020 0 0 0 .76863 -.70980 0 0 0 .79216 -.66667 0 0 0 .74118 0 0 0 1 0"/>
+    </filter>
+    <filter id="duo-logo-paper" color-interpolation-filters="sRGB">
+      <feColorMatrix result="gray" type="matrix" values=".2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 .2126 .7152 .0722 0 0 0 0 0 1 0"/>
+      <feComponentTransfer in="gray" result="lifted">
+        <feFuncR type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+        <feFuncG type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+        <feFuncB type="gamma" amplitude="1" exponent="1.16" offset=".10"/>
+      </feComponentTransfer>
+      <feComponentTransfer in="lifted" result="mono">
+        <feFuncR type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+        <feFuncG type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+        <feFuncB type="discrete" tableValues="0 0 0 0 0 1 1 1 1 1 1 1"/>
+      </feComponentTransfer>
+      <feColorMatrix in="mono" type="matrix" values=".69020 0 0 0 .07843 .70980 0 0 0 .08235 .66667 0 0 0 .07451 0 0 0 1 0"/>
+    </filter>
+  </svg>
 
-    <!-- full-screen animated background -->
-    <canvas id="bg-canvas" class="absolute inset-0 -z-10"></canvas>
+  <div class="aim-layer" id="aimLayer" aria-label="Background aim trainer"></div>
+  <div class="aim-hud" id="aimHud" aria-live="polite" hidden>
+    <span>TIME <strong id="aimTime">00:00</strong></span>
+    <span>ACC <strong id="aimAccuracy">100%</strong></span>
+    <span>LIVES <strong id="aimLives">3</strong></span>
+    <span>HITS <strong id="aimHits">0</strong></span>
+  </div>
+  <div class="aim-result" id="aimResult" role="dialog" aria-live="polite" hidden>
+    <button class="aim-close" id="aimClose" type="button" aria-label="Dismiss score">X</button>
+    <strong>AIM SESH LOST</strong>
+    <span id="aimSummary">0 hits / 100% / 00:00</span>
+    <button id="aimShare" type="button">Copy Score</button>
+  </div>
+  <aside class="filter-lab" id="filterLab" aria-label="Temporary image filter controls" hidden>
+    <strong>FILTER LAB / TEMP</strong>
+    <label>
+      <span>Gamma</span>
+      <input id="filterGamma" type="range" min="0.45" max="1.45" step="0.01" value="1.16">
+      <output id="filterGammaValue">1.16</output>
+    </label>
+    <label>
+      <span>Lift</span>
+      <input id="filterLift" type="range" min="0" max="0.18" step="0.01" value="0.10">
+      <output id="filterLiftValue">0.10</output>
+    </label>
+    <label>
+      <span>Cutoff</span>
+      <input id="filterCutoff" type="range" min="10" max="80" step="1" value="41">
+      <output id="filterCutoffValue">41</output>
+    </label>
+    <code id="filterReadout">gamma=1.16 lift=0.10 cutoff=41 table=0 0 0 0 0 1 1 1 1 1 1 1</code>
+  </aside>
 
-    <header class="relative z-10 p-6">
-        <h1 class="text-3xl font-bold tracking-tight">Gwanox • Warframe Conclave & Captura</h1>
-        <p class="mt-2 max-w-xl opacity-80">I create expert Conclave content, stream top-tier PvP, craft cinematic Captura and supply the mods you need to compete.</p>
+  <!-- [VISIBLE CONTENT] The page is crawlable HTML; JS only adds interaction. -->
+  <main class="site" id="main">
+    <section class="micrographic" aria-labelledby="site-title">
+      <div class="motion-layer" id="motionLayer" aria-hidden="true">
+        <span class="ticker"></span>
+        <span class="factory-blip"></span>
+        <span class="factory-blip"></span>
+        <span class="factory-blip"></span>
+        <span class="factory-blip"></span>
+      </div>
 
-        <!-- Social links -->
-        <nav aria-label="Social links" class="mt-4 flex flex-wrap gap-4 text-sm">
-            <a href="https://www.twitch.tv/gwanox" target="_blank" rel="noopener noreferrer">Twitch</a>
-            <a href="https://www.youtube.com/@gwanox" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a href="https://twitter.com/_Gwanox" target="_blank" rel="noopener noreferrer">Twitter / X</a>
-            <a href="https://www.instagram.com/gwanox" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://www.reddit.com/user/gwanox" target="_blank" rel="noopener noreferrer">Reddit</a>
-            <a href="https://discord.gg/conclave" target="_blank" rel="noopener noreferrer">Discord</a>
-            <a href="https://warframe.market/profile/gwan" target="_blank" rel="noopener noreferrer">Market</a>
-            <a href="https://gwanox.bio.link" target="_blank" rel="noopener noreferrer">Bio&nbsp;Link</a>
-            <a href="/fr/" class="ml-auto underline hover:opacity-80 text-base">FR</a>
-        </nav>
-    </header>
+      <div class="panel">
+        <header class="databar">
+          <span>Reignition PROJECT  / Index</span>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">
+            <span>141513</span>
+            <span class="toggle-cell" aria-hidden="true"></span>
+            <span>C4CABD</span>
+          </button>
+          <span class="right">© Gwanox / <script>document.write(new Date().getFullYear())</script></span>
+        </header>
 
-    <main id="main" class="relative min-h-screen flex items-center justify-center p-4">
-        <noscript>
-            <p>You are viewing a simplified version of Gwanox.com. Enable JavaScript for the full interactive experience.</p>
-        </noscript>
+        <div class="content">
+          <section class="identity" aria-label="Gwanox profile">
+            <div class="eyebrow">
+              <span>Content Creator</span>
+              <a href="/warframe-pvp/">Warframe PvP / Conclave</a>
+              <a href="/warframe-pvp-discord-conclave/">Community Ambassador</a>
+            </div>
 
-        <!-- Central glassmorphic card -->
-        <section id="hero-card" aria-labelledby="hero-title" class="backdrop-blur bg-white/5 rounded-2xl p-8 text-center shadow-lg max-w-lg w-full">
-            <h2 id="hero-title" class="text-4xl font-bold mb-2">Gwanox</h2>
-            <h3 class="text-xl font-semibold mb-4">Conclaver • Captura Artist • Mod Vendor</h3>
-            <p class="mb-6">Site relaunching soon • meanwhile dive into the resources below:</p>
-            <ul class="space-y-3 text-lg">
-                <li><a href="/conclave_guide" class="underline hover:opacity-80">📘 Ultimate Conclave Guide</a></li>
-                <li><a href="https://discord.gwanox.com" class="underline hover:opacity-80">💬 Conclave Discord Community</a></li>
-                <li><a href="https://www.youtube.com/@gwanox" class="underline hover:opacity-80">🎥 Main YouTube Channel</a></li>
-                <li><a href="https://www.youtube.com/@gwanox2" class="underline hover:opacity-80">🎬 Clips & Full Games</a></li>
-                <li><a href="https://warframe.market/profile/gwan" class="underline hover:opacity-80">🛒 Buy Conclave Mods</a></li>
-            </ul>
-        </section>
-    </main>
+            <h1 id="site-title"><span class="title-word">GWANOX</span><span class="aka">aka gwan</span></h1>
 
-    <footer class="relative z-10 p-6 text-center opacity-70 text-sm">
-        <span id="year"></span> © Gwanox
-    </footer>
+            <p class="lead">
+              I'm the Conclave guy. Most of these projects grow from my love for Warframe's niche PvP mode. All of them have one common goal: Reigniting Conclave.
+            </p>
 
-    <script>
-        // Update the year in the footer automatically
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
+            <div class="stat-strip" aria-hidden="true"><span>status: alive / active</span></div>
 
-    <!-- Main script as a module -->
-    <script type="module" src="/apps/home/js/main.js"></script>
+            <div class="image-array">
+              <figure class="portrait">
+                <img class="photo-filter" src="assets/logos/gwanox.jpg" alt="Gwanox avatar" width="400" height="400" decoding="async">
+                <figcaption class="sr-only">Gwanox avatar processed through a two-color retro image filter.</figcaption>
+              </figure>
+              <figure class="sigil-box">
+                <img class="logo-filter" src="assets/logos/conclave.png" alt="Conclave emblem" width="512" height="512" decoding="async">
+                <figcaption class="sr-only">Conclave emblem processed through a two-color retro image filter.</figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <!-- [LINK CARDS] Add cards here, then mirror name/url in the JSON-LD ItemList. -->
+          <nav class="links" aria-label="Gwanox links">
+
+            <a class="channel" href="https://www.twitch.tv/gwanox" target="_blank" rel="noopener noreferrer me" data-status="Broadcast / live matches" data-id="twitch">
+              <img class="mark mark-img logo-filter" src="assets/logos/twitch.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>Livestream</strong>
+              <small>Watch me PvP</small>
+            </a>
+
+            <a class="channel" href="https://discord.gg/conclave" target="_blank" rel="noopener noreferrer me" data-status="Warframe PvP Discord / active server" data-id="discord">
+              <img class="mark mark-img logo-filter" src="assets/logos/discord.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>Community</strong>
+              <small>dsc.gg/conclave</small>
+            </a>
+
+            <a class="channel" href="/conclave_guide/" data-status="Guide / PvP fundamentals" data-id="guide">
+              <img class="mark mark-img logo-filter" src="assets/logos/guide.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>PvP Guide</strong>
+              <small>Git gud</small>
+            </a>
+
+            <a class="channel" href="https://www.youtube.com/@gwanox" target="_blank" rel="noopener noreferrer me" data-status="Channel / edits and guides" data-id="youtube">
+              <img class="mark mark-img logo-filter" src="assets/logos/youtube.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>YouTube</strong>
+              <small>Main channel</small>
+            </a>
+
+            <a class="channel" href="https://www.youtube.com/@gwanox2" target="_blank" rel="noopener noreferrer me" data-status="Second channel / compact cuts" data-id="clips">
+              <img class="mark mark-img logo-filter" src="assets/logos/clips.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>Highlights</strong>
+              <small>Second channel</small>
+            </a>
+
+            <a class="channel" href="https://www.youtube.com/@gwanoxVOD" target="_blank" rel="noopener noreferrer me" data-status="Archive / 1440p60 streams" data-id="vod">
+              <img class="mark mark-img logo-filter" src="assets/logos/vod.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>Archive</strong>
+              <small>1440p60 VOD</small>
+            </a>
+
+            <a class="channel" href="https://twitter.com/_Gwanox" target="_blank" rel="noopener noreferrer me" data-status="feed / updates" data-id="x">
+              <img class="mark mark-img logo-filter" src="assets/logos/x.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>Twitter / X</strong>
+              <small>Updates</small>
+            </a>
+
+            <a class="channel" href="https://www.instagram.com/gwanox" target="_blank" rel="noopener noreferrer me" data-status="Captura / image work" data-id="instagram">
+              <img class="mark mark-img logo-filter" src="assets/logos/instagram.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>Insta</strong>
+              <small>Captura & More</small>
+            </a>
+
+            <a class="channel" href="https://www.reddit.com/user/gwanox" target="_blank" rel="noopener noreferrer me" data-status="Reddit / user profile" data-id="reddit">
+              <img class="mark mark-img logo-filter" src="assets/logos/reddit.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>Reddit</strong>
+              <small>User page</small>
+            </a>
+
+            <a class="channel" href="https://warframe.market/profile/gwan" target="_blank" rel="noopener noreferrer me" data-status="Market / mods" data-id="market">
+              <img class="mark mark-img logo-filter" src="assets/logos/market.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>WFM Page</strong>
+              <small>Buy PvP Mods</small>
+            </a>
+
+            <a class="channel" href="https://streamelements.com/gwanox/tip" target="_blank" rel="noopener noreferrer me" data-status="Thank / you" data-id="support">
+              <img class="mark mark-img logo-filter" src="assets/logos/support.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>Support</strong>
+              <small>My projects</small>
+            </a>
+
+            <a class="channel" href="https://playwarframe.gwanox.com" target="_blank" rel="noopener noreferrer" data-status="Referral / play Warframe" data-id="referral">
+              <img class="mark mark-img logo-filter" src="assets/logos/referral.png" alt="" width="128" height="128" decoding="async" aria-hidden="true">
+              <strong>PlayWarframe</strong>
+              <small>Referal 2x XP</small>
+            </a>
+
+            <a class="link-mail" href="mailto:mail@gwanox.com"> mail@gwanox.com</a>
+
+          </nav>
+
+          <div class="scope-line" aria-hidden="true">
+            <span class="scope-h scope-h-1"></span>
+            <span class="scope-v scope-v-1"></span>
+            <span class="scope-h scope-h-2"></span>
+            <span class="scope-v scope-v-2"></span>
+            <span class="scope-h scope-h-3"></span>
+            <span class="scope-v scope-v-3"></span>
+            <span class="scope-h scope-h-4"></span>
+            <span class="scope-v scope-v-4"></span>
+            <span class="scope-h scope-h-5"></span>
+            <span class="scope-v scope-v-5"></span>
+            <span class="scope-h scope-h-6"></span>
+            <span class="scope-pulse"></span>
+          </div>
+        </div>
+
+        <footer class="footerbar">
+          <span class="serial">HOP / ON / CONCLAVE</span>
+          <form class="access-port" id="labGate" autocomplete="off">
+            <span aria-hidden="true">></span>
+            <span class="access-entry">
+              <input id="labCode" type="text" maxlength="3" inputmode="text" spellcheck="false" aria-label="System code" placeholder="___">
+            </span>
+            <span id="labGateStatus" aria-live="polite">SYS</span>
+            <button class="access-close" id="labClose" type="button" aria-label="Close current easter egg" hidden>X</button>
+          </form>
+          <span class="readout right" id="readout" aria-live="polite">READY / GWAN-00</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- [PRIORITY NAV] Mirrors sitemap priority for search sitelink candidates. -->
+  <nav class="sitelink-nav sr-only" aria-label="Priority pages">
+    <h2>Primary Gwanox pages</h2>
+    <ol>
+      <li><a href="/warframe-pvp-discord-conclave/">Warframe PvP Discord - Conclave Reignited</a></li>
+      <li><a href="/conclave_guide/">Warframe Conclave Guide</a></li>
+      <li><a href="/warframe-pvp/">Warframe PvP / Conclave</a></li>
+    </ol>
+  </nav>
+
+  <!-- [SEMANTIC INDEX] Accessible summary for screen readers and parsers, kept short and human. -->
+  <section class="sr-only" aria-labelledby="semantic-index-title">
+    <h2 id="semantic-index-title">Warframe Conclave PvP resources by Gwanox</h2>
+    <p>Gwanox.com is a compact index for Warframe Conclave and Warframe PvP resources, including a <a href="/warframe-pvp-discord-conclave/">Warframe PvP Discord page</a>, a <a href="/conclave_guide/">Conclave guide</a>, a <a href="/warframe-pvp/">Warframe PvP landing page</a>, PvP match broadcasts, YouTube archives, Captura work, Conclave mod inventory and a Warframe referral.</p>
+    <ul>
+      <li>Warframe Conclave guide and PvP manual for players looking for fundamentals, practice references and match resources.</li>
+      <li>Warframe PvP streams, live Conclave broadcasts, 1440p60 video archives and short match clips from Gwanox.</li>
+      <li>Warframe Captura work, Conclave mod inventory, Conclave Reignited community access and official Gwanox profile links.</li>
+    </ul>
+  </section>
+
+  <noscript>
+    <p class="sr-only">Gwanox.com links to Warframe Conclave PvP resources, PvP streams, Captura work, video archives, Conclave Reignited, a Warframe referral and Conclave mods.</p>
+  </noscript>
+
+  <script src="assets/js/site.js" defer></script>
 </body>
 </html>

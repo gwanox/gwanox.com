@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder Twitter image for Gwanox Warframe Conclave PvP</title>
+  <desc id="desc">Replace this placeholder with a final 1200 by 675 Twitter card image.</desc>
+  <rect width="1200" height="675" fill="#141513"/>
+  <g fill="#c4cabd">
+    <rect x="52" y="52" width="1096" height="2"/>
+    <rect x="52" y="621" width="1096" height="2"/>
+    <rect x="52" y="52" width="2" height="571"/>
+    <rect x="1146" y="52" width="2" height="571"/>
+    <text x="86" y="150" font-family="Arial Black, Arial, sans-serif" font-size="82" font-weight="900">GWANOX</text>
+    <text x="90" y="230" font-family="Consolas, monospace" font-size="32">WARFRAME CONCLAVE PVP</text>
+    <text x="90" y="292" font-family="Consolas, monospace" font-size="26">RESOURCE INDEX / CAPTURA / ARCHIVES</text>
+    <rect x="90" y="382" width="1020" height="2"/>
+    <rect x="90" y="424" width="80" height="18"/>
+    <rect x="200" y="424" width="144" height="18"/>
+    <rect x="374" y="424" width="96" height="18"/>
+    <rect x="500" y="424" width="210" height="18"/>
+    <rect x="740" y="424" width="122" height="18"/>
+    <text x="90" y="558" font-family="Consolas, monospace" font-size="24">TODO: FINAL TWITTER IMAGE / 1200X675</text>
+  </g>
+</svg>
